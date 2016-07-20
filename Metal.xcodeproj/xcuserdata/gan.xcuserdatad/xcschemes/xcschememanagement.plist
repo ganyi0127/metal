@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>TestGraphics.xcscheme</key>
+		<key>Metal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>325564A91D3FA7C4008EC927</key>
+		<key>323563871D3FD18400F031FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>325564BD1D3FA7C4008EC927</key>
+		<key>3235639B1D3FD18400F031FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>325564C81D3FA7C4008EC927</key>
+		<key>323563A61D3FD18400F031FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

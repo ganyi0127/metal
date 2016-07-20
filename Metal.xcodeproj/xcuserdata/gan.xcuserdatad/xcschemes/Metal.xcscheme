@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "325564A91D3FA7C4008EC927"
+               BlueprintIdentifier = "323563871D3FD18400F031FC"
                BuildableName = "Metal.app"
                BlueprintName = "Metal"
                ReferencedContainer = "container:Metal.xcodeproj">
@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "325564BD1D3FA7C4008EC927"
-               BuildableName = "Metal.xctest"
+               BlueprintIdentifier = "3235639B1D3FD18400F031FC"
+               BuildableName = "MetalTests.xctest"
                BlueprintName = "MetalTests"
                ReferencedContainer = "container:Metal.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "325564C81D3FA7C4008EC927"
-               BuildableName = "Metal.xctest"
+               BlueprintIdentifier = "323563A61D3FD18400F031FC"
+               BuildableName = "MetalUITests.xctest"
                BlueprintName = "MetalUITests"
                ReferencedContainer = "container:Metal.xcodeproj">
             </BuildableReference>
@@ -52,10 +52,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "325564A91D3FA7C4008EC927"
+            BlueprintIdentifier = "323563871D3FD18400F031FC"
             BuildableName = "Metal.app"
             BlueprintName = "Metal"
-            ReferencedContainer = "container:TestGraphics.xcodeproj">
+            ReferencedContainer = "container:Metal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "325564A91D3FA7C4008EC927"
+            BlueprintIdentifier = "323563871D3FD18400F031FC"
             BuildableName = "Metal.app"
             BlueprintName = "Metal"
-            ReferencedContainer = "container:TestGraphics.xcodeproj">
+            ReferencedContainer = "container:Metal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,16 +90,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "325564A91D3FA7C4008EC927"
+            BlueprintIdentifier = "323563871D3FD18400F031FC"
             BuildableName = "Metal.app"
             BlueprintName = "Metal"
-            ReferencedContainer = "container:TestGraphics.xcodeproj">
+            ReferencedContainer = "container:Metal.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
