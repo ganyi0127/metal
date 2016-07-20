@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3235637B1D3FD0F400F031FC /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3235637A1D3FD0F400F031FC /* Metal.framework */; };
 		325564AE1D3FA7C4008EC927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325564AD1D3FA7C4008EC927 /* AppDelegate.swift */; };
 		325564B01D3FA7C4008EC927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325564AF1D3FA7C4008EC927 /* ViewController.swift */; };
 		325564B31D3FA7C4008EC927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 325564B11D3FA7C4008EC927 /* Main.storyboard */; };
@@ -15,9 +16,6 @@
 		325564C31D3FA7C4008EC927 /* TestGraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325564C21D3FA7C4008EC927 /* TestGraphicsTests.swift */; };
 		325564CE1D3FA7C4008EC927 /* TestGraphicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325564CD1D3FA7C4008EC927 /* TestGraphicsUITests.swift */; };
 		325564DC1D3FA82D008EC927 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325564DB1D3FA82D008EC927 /* MyView.swift */; };
-		3255651C1D3FBB17008EC927 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3255651B1D3FBB17008EC927 /* Metal.framework */; };
-		3255651E1D3FBB1F008EC927 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3255651D1D3FBB1F008EC927 /* QuartzCore.framework */; };
-		3255659A1D3FBD69008EC927 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325565991D3FBD69008EC927 /* MetalKit.framework */; };
 		3255659C1D3FC27B008EC927 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3255659B1D3FC27B008EC927 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3235637A1D3FD0F400F031FC /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		325564AA1D3FA7C4008EC927 /* Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		325564AD1D3FA7C4008EC927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		325564AF1D3FA7C4008EC927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,9 +52,6 @@
 		325564CD1D3FA7C4008EC927 /* TestGraphicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGraphicsUITests.swift; sourceTree = "<group>"; };
 		325564CF1D3FA7C4008EC927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		325564DB1D3FA82D008EC927 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
-		3255651B1D3FBB17008EC927 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		3255651D1D3FBB1F008EC927 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		325565991D3FBD69008EC927 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		3255659B1D3FC27B008EC927 /* Shader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3255659A1D3FBD69008EC927 /* MetalKit.framework in Frameworks */,
-				3255651E1D3FBB1F008EC927 /* QuartzCore.framework in Frameworks */,
-				3255651C1D3FBB17008EC927 /* Metal.framework in Frameworks */,
+				3235637B1D3FD0F400F031FC /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +84,7 @@
 		325564A11D3FA7C4008EC927 = {
 			isa = PBXGroup;
 			children = (
-				325565991D3FBD69008EC927 /* MetalKit.framework */,
-				3255651D1D3FBB1F008EC927 /* QuartzCore.framework */,
-				3255651B1D3FBB17008EC927 /* Metal.framework */,
+				3235637A1D3FD0F400F031FC /* Metal.framework */,
 				325564AC1D3FA7C4008EC927 /* TestGraphics */,
 				325564C11D3FA7C4008EC927 /* TestGraphicsTests */,
 				325564CC1D3FA7C4008EC927 /* TestGraphicsUITests */,
@@ -211,6 +203,7 @@
 				TargetAttributes = {
 					325564A91D3FA7C4008EC927 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NWGF84NL9Q;
 					};
 					325564BD1D3FA7C4008EC927 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -222,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 325564A51D3FA7C4008EC927 /* Build configuration list for PBXProject "Metal" */;
+			buildConfigurationList = 325564A51D3FA7C4008EC927 /* Build configuration list for PBXProject "TestGraphics" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -421,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestGraphics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangebrush.TestGraphics;
@@ -432,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TestGraphics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orangebrush.TestGraphics;
@@ -488,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		325564A51D3FA7C4008EC927 /* Build configuration list for PBXProject "Metal" */ = {
+		325564A51D3FA7C4008EC927 /* Build configuration list for PBXProject "TestGraphics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				325564D01D3FA7C4008EC927 /* Debug */,

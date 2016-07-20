@@ -55,7 +55,7 @@
             BlueprintIdentifier = "325564A91D3FA7C4008EC927"
             BuildableName = "Metal.app"
             BlueprintName = "Metal"
-            ReferencedContainer = "container:Metal.xcodeproj">
+            ReferencedContainer = "container:TestGraphics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "325564A91D3FA7C4008EC927"
             BuildableName = "Metal.app"
             BlueprintName = "Metal"
-            ReferencedContainer = "container:Metal.xcodeproj">
+            ReferencedContainer = "container:TestGraphics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "325564A91D3FA7C4008EC927"
             BuildableName = "Metal.app"
             BlueprintName = "Metal"
-            ReferencedContainer = "container:Metal.xcodeproj">
+            ReferencedContainer = "container:TestGraphics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6697CFA647EEF4DCEF1FE04C7CCFCF2882DAD354",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "60154674589A839113548E6CA5F06D491810DFCE" : 0,
+    "6697CFA647EEF4DCEF1FE04C7CCFCF2882DAD354" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1FD6E5B2-2768-4E44-A97B-9FFCF51475E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "60154674589A839113548E6CA5F06D491810DFCE" : "",
+    "6697CFA647EEF4DCEF1FE04C7CCFCF2882DAD354" : "Metal\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestGraphics",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestGraphics.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https\/\/github.com\/ganyi0127\/forone.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "60154674589A839113548E6CA5F06D491810DFCE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ganyi0127\/metal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6697CFA647EEF4DCEF1FE04C7CCFCF2882DAD354"
+    }
+  ]
+}
